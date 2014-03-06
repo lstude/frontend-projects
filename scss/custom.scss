@@ -2,10 +2,11 @@
 
 $elyse-project-color: #651B63;
 
+
 // add your project main color here:
 // $MYNAME-project-color: HEXVALUE;
 
-
+$laura-project-color: #6633FF;
 
 
 // change the body background color on each page based on your name
@@ -18,3 +19,6 @@ $elyse-project-color: #651B63;
 
 #sartaj {}
 
+#laura {
+	@include readable($laura-project-color);
+}
